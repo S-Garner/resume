@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    padding: 0%;
+    max-width: 850px;
+}
+
+h1 {
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+    color: #2163CA;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-info {
+    display: flex;          
+    flex-direction: row;    
+    flex-wrap: wrap;        
+    gap: 10px;              
+    justify-content: left;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+.section-header p {
+    font-weight: bold;
+    border-top: 1px solid #2163CA;
+    padding: 5px 0;
+    border-bottom: 1px solid #2163CA;
+    color: #2163CA;
+}
