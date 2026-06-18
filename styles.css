@@ -36,3 +36,10 @@ h2 {
     border-bottom: 1px solid #2163CA;
     color: #2163CA;
 }
+
+.bullet-list {
+    list-style-type: disc #2163CA;
+    margin: 0px 0px 0px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
