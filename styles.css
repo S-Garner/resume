@@ -3,7 +3,7 @@ body {
     margin: 50px;
     padding: 0%;
     max-width: 850px;
-    align-self: center;
+    align-items: center;
 }
 
 h1 {
@@ -19,12 +19,12 @@ h2 {
 }
 
 .link {
-  display: flex;             /* Makes the <a> act as a box */
-  justify-content: center;   /* Centers horizontally */
-  align-items: center;       /* Centers vertically */
-  width: 52px;              /* Define your box width */
-  height: 40px;              /* Define your box height */
-  text-decoration: none;     /* Optional: removes link underline */
+  display: flex;          
+  justify-content: center;
+  align-items: center;    
+  width: 52px;            
+  height: 40px;           
+  text-decoration: none;  
 }
 
 .contact-info {
@@ -77,8 +77,8 @@ h2 {
     padding: 5px 0;
     border-bottom: 1px solid #2163CA;
     color: #2163CA;
-    margin-top: 5px;
-    margin-bottom: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .bullet-list {
@@ -86,4 +86,8 @@ h2 {
     margin: 0px 0px 0px 0px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.bullet-list-item {
+    margin-top: 2px;
 }
