@@ -3,6 +3,7 @@ body {
     margin: 50px;
     padding: 0%;
     max-width: 850px;
+    align-self: center;
 }
 
 h1 {
@@ -17,6 +18,15 @@ h2 {
     padding: 0px;
 }
 
+.link {
+  display: flex;             /* Makes the <a> act as a box */
+  justify-content: center;   /* Centers horizontally */
+  align-items: center;       /* Centers vertically */
+  width: 52px;              /* Define your box width */
+  height: 40px;              /* Define your box height */
+  text-decoration: none;     /* Optional: removes link underline */
+}
+
 .contact-info {
     display: flex;          
     flex-direction: row;    
@@ -29,12 +39,46 @@ h2 {
     margin: 0px;
 }
 
+.experience-block {
+    margin-top: 6px;
+}
+
+.experience-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    gap: 20px;
+}
+
+.experience-line p {
+    margin: 0;
+}
+
+.company-name {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.timeframe {
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: right;
+    font-size: 15px;
+}
+
+.location {
+    margin: 2px 0 5px 0;
+}
+
 .section-header p {
     font-weight: bold;
     border-top: 1px solid #2163CA;
     padding: 5px 0;
     border-bottom: 1px solid #2163CA;
     color: #2163CA;
+    margin-top: 5px;
+    margin-bottom: 3px;
 }
 
 .bullet-list {
