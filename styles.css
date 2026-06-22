@@ -1,9 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 50px;
-    padding: 0%;
+    margin: 50px auto;
+    padding: 0;
     max-width: 850px;
-    align-items: center;
 }
 
 h1 {
@@ -86,7 +85,7 @@ h2 {
 }
 
 .bullet-list {
-    list-style-type: disc #2163CA;
+    list-style-type: disc;
     margin: 0px 0px 0px 0px;
     padding-left: 20px;
     padding-right: 20px;
@@ -95,4 +94,67 @@ h2 {
 .bullet-list-item {
     margin-top: 2px;
     font-size: 14px;
+}
+
+@page {
+    size: letter;
+    margin: 0.45in;
+}
+
+@media print {
+    @page {
+        size: letter;
+        margin: 0.3in;
+    }
+
+    body {
+        font-size: 9pt;
+        line-height: 1.08;
+    }
+
+    h1 {
+        font-size: 18pt;
+        margin-bottom: 2px;
+    }
+
+    h2 {
+        font-size: 11pt;
+    }
+
+    .summary-content,
+    .bullet-list-item {
+        font-size: 8.8pt;
+        line-height: 1.08;
+    }
+
+    .section-header p {
+        margin-top: 5px;
+        margin-bottom: 4px;
+        padding: 2px 0;
+    }
+
+    .bullet-list-item {
+        margin-top: 0;
+    }
+
+    .experience-block {
+        margin-top: 3px;
+    }
+
+    .location {
+        margin: 1px 0 2px 0;
+    }
+
+    .contact-info {
+        display: flex;          
+        flex-direction: row;    
+        flex-wrap: wrap;        
+        gap: 10px;              
+        justify-content: left;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 0px;
+        margin: 0px;
+        height: 30px;
+    }
 }
