@@ -90,8 +90,9 @@ section {
 
 .summary-content {
   margin: 0;
-  font-size: 9pt;
+  font-size: 12pt;
   line-height: 1.16;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .expertise-grid {
@@ -106,6 +107,7 @@ section {
 .expertise-grid li,
 .bullet-list li {
   padding-left: 1px;
+  font-size: 12px;
 }
 
 .experience-block,
@@ -209,7 +211,7 @@ strong {
   .summary-content,
   .bullet-list li,
   .education-details {
-    font-size: 8.35pt;
+    font-size: 14px;
     line-height: 1.08;
   }
   .expertise-grid {
@@ -228,4 +230,9 @@ strong {
     color: black;
     text-decoration: none;
   }
+}
+
+.cover-letter{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
 }
