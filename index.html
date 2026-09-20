@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Seth Garner Resume</title>
   <link rel="stylesheet" href="styles.css">
-
+  <!-- TEMPORARY: highlights placeholders so you can find them. Delete this block and every .todo span when done. -->
+  <style>.todo { background: #fff3a3; color: #000; }</style>
 </head>
 <body>
   <header>
     <h1>SETH GARNER</h1>
-    <p class="target-title">SOFTWARE DEVELOPER | SYSTEMS &amp; NETWORK ENGINEER</p>
+    <p class="target-title">SOFTWARE DEVELOPER | BACKEND &amp; FULL-STACK</p>
     <p class="contact">
       <span>Conway, AR</span>
       <span>seth@fallward.com</span>
@@ -23,19 +24,18 @@
   <main>
     <section aria-labelledby="profile">
       <h2 id="profile" class="section-header">Profile</h2>
-      <p class="summary-content">Software developer and systems/network engineer with hands-on experience building Java/Swing desktop features, Vue.js interfaces, Java servlet workflows, SQL reporting tools, and internal automation. Experienced in production support, customer troubleshooting, database maintenance, and cross-functional issue triage for software used by lighting reps, manufacturers, and distributors. Background includes SAP Sybase SQL Anywhere, Oracle, SQL Server, PostgreSQL migration work, Java-based crawler tooling, PDF data extraction workflows, and large-scale product data systems. Former U.S. Air Force RF Transmission Systems Specialist with experience supporting secure communications, operational radio systems, and high-pressure technical environments.</p>
+      <p class="summary-content">Software developer with 3+ years of experience building Java backend services, Vue.js front ends, and SQL-driven reporting tools for software used by lighting reps, manufacturers, and distributors. Comfortable across the stack, from database work and migrations (SAP Sybase SQL Anywhere, Oracle, SQL Server, PostgreSQL) to production support and bug triage. B.S. in Computer Science (UCA, May 2026); first-place capstone winner; U.S. Air Force veteran.</p>
     </section>
 
-    <section aria-labelledby="technical-expertise">
-      <h2 id="technical-expertise" class="section-header">Technical Expertise</h2>
+    <section aria-labelledby="technical-skills">
+      <h2 id="technical-skills" class="section-header">Technical Skills</h2>
       <ul class="expertise-grid">
-        <li>Java/Swing Desktop Applications</li>
-        <li>Vue.js &amp; Java Servlet Workflows</li>
-        <li>SQL Databases, Reporting &amp; Automation</li>
-        <li>Production Support &amp; Bug Triage</li>
-        <li>Systems &amp; Network Infrastructure</li>
-        <li>Automation &amp; Scripting</li>
-        <li>Secure Communications &amp; RF Systems</li>
+        <li><strong>Languages:</strong> Java, C++, SQL, JavaScript</li>
+        <li><strong>Backend:</strong> Java Servlets, Swing, web crawling, PDF/data extraction pipelines</li>
+        <li><strong>Frontend:</strong> Vue.js, HTML/CSS</li>
+        <li><strong>Databases:</strong> PostgreSQL, SQL Server, Oracle, SAP Sybase SQL Anywhere</li>
+        <li><strong>Tools &amp; Practices:</strong> Automated build/test workflows, OpenGL, production support &amp; bug triage</li>
+        <li><strong>Infrastructure:</strong> UniFi, VLAN segmentation, DHCP/DNS, secure communications</li>
       </ul>
     </section>
 
@@ -43,35 +43,16 @@
       <h2 id="experience" class="section-header">Experience</h2>
 
       <div class="experience-block">
-        <p class="role-row"><span>Software Developer Intern, Ingen Software</span><span class="date">May 2023 - Present</span></p>
+        <!-- Consider updating the title and "Present" if you've graduated or been converted to full-time. -->
+        <p class="role-row"><span>Software Developer (Part-Time), Ingen Software</span><span class="date">May 2023 - August 2026</span></p>
         <p class="location">Cabot, AR</p>
         <ul class="bullet-list">
-          <li>Designed and maintained UI and backend components for a Java/Swing project-management application, supporting internal workflows and customer-facing project management features.</li>
-          <li>Built responsive Vue.js interfaces and Java servlet workflows for internal and customer-facing tools to streamline user tasks and reduce manual steps.</li>
-          <li>Managed and optimized large SQL datasets; created automated reporting and testing workflows to increase data accuracy and reduce manual reporting effort.</li>
-          <li>Facilitated daily case-review meetings with 20+ staff to triage tickets, escalate blockers, and coordinate fixes, accelerating resolution times.</li>
-          <li>Investigated customer-reported issues by reproducing bugs, documenting root causes, and coordinating fixes across support and development teams.</li>
-          <li>Contributed to Folio, a large-scale product-data extraction system, by supporting Java web crawler tooling, PDF cutsheet ingestion, tokenization scripts, and ML-assisted attribute extraction from manufacturer documentation.</li>
-        </ul>
-      </div>
-
-      <div class="experience-block">
-        <p class="role-row"><span>Systems &amp; Network Technician, The Underwood Branch</span><span class="date">Dec 2024 - Oct 2025</span></p>
-        <p class="location">Calico Rock, AR</p>
-        <ul class="bullet-list">
-          <li>Designed and deployed UniFi gateways, PoE switches, access points, and NVR systems to establish reliable campus network and surveillance infrastructure.</li>
-          <li>Installed and configured wired and wireless network infrastructure for a newly built school, implementing secure VLAN segmentation and core services including DHCP/DNS for stable operation.</li>
-          <li>Mounted and wired cameras, magnetic locks, access readers, and door-control hardware; performed commissioning and created documentation for ongoing maintenance.</li>
-        </ul>
-      </div>
-
-      <div class="experience-block">
-        <p class="role-row"><span>RF Transmission Systems Specialist (3D1X3), United States Air Force</span><span class="date">Aug 2017 - Nov 2020</span></p>
-        <p class="location">JB Andrews, MD</p>
-        <ul class="bullet-list">
-          <li>Operated and maintained HF/VHF/UHF radio and transmission systems supporting executive airlift missions, ensuring continuous secure communications.</li>
-          <li>Led and mentored a six-member operations team in high-security, time-critical environments, coordinating maintenance and mission execution.</li>
-          <li>Earned CompTIA Security+ certification and completed advanced networking and RF systems training to support complex communications systems.</li>
+          <li>Built Java servlet workflows and responsive Vue.js interfaces for internal and customer-facing tools, reducing manual steps in project management and order tracking.</li>
+          <li>Managed and optimized SQL datasets of 2000000 rows; built automated reporting and testing workflows that improved data accuracy and cut manual reporting effort by 30 hrs.</li>
+          <li>Contributed to PostgreSQL migration work, including schema conversion, query rewrites, validation.</li>
+          <li>Contributed to Folio, a product-data extraction system: supported Java web crawler tooling, PDF cutsheet ingestion, tokenization scripts, and ML-assisted attribute extraction across 1300 manufacturers.</li>
+          <li>Designed and maintained UI and backend components for a Java/Swing project-management application used by 225 customers.</li>
+          <li>Reproduced and root-caused customer-reported bugs, coordinating fixes across support and development; facilitated daily case-review meetings with 20+ staff to triage tickets and escalate blockers.</li>
         </ul>
       </div>
     </section>
@@ -79,20 +60,44 @@
     <section aria-labelledby="projects">
       <h2 id="projects" class="section-header">Projects</h2>
       <div class="project-block">
-        <p class="role-row"><span>SCEd - C++ Application Framework &amp; 2D Renderer</span><span class="date">Fall 2025</span></p>
+        <p class="role-row"><span>SCEd - C++ Rendering Framework &amp; 2D Engine</span><span class="date">Fall 2025</span></p>
         <ul class="bullet-list">
-          <li>Designed and implemented a modular C++ framework for editor-style applications, including a rendering pipeline, scene graph, resource management, and an object based OpenGL implementation.</li>
-          <li>Built supporting documentation and automated build/test workflows to keep the framework maintainable for future development.</li>
+          <li>Led core development of a C++17/OpenGL 2D engine on a 4-person team (~70% of commits): batched vertex-buffer renderer, shape abstraction (rectangle, circle, ellipse, polygon), object transform hierarchy, layer system, and GLSL shader pipeline.</li>
+          <li>Built the input, UI-button, and JSON shape-definition parsing layers (nlohmann/json), plus demo apps (paint tool, Pong, Simon) and tests that exercise the engine end to end.</li>
+          <li>Set up a cross-platform CMake build (Linux, macOS, Windows) with vendored dependencies and multiple test/demo targets; ~1,600 lines of core C++ plus ~1,800 lines of tests and demos.</li>
           <li>Awarded Outstanding Capstone Project - First Place, Fall 2025.</li>
         </ul>
       </div>
     </section>
 
+    <section aria-labelledby="additional-experience">
+      <h2 id="additional-experience" class="section-header">Additional Experience</h2>
+
+      <div class="experience-block">
+        <p class="role-row"><span>Systems &amp; Network Technician, The Underwood Branch</span><span class="date">Dec 2024 - Oct 2025</span></p>
+        <p class="location">Calico Rock, AR</p>
+        <ul class="bullet-list">
+          <li>Designed and deployed campus network and surveillance infrastructure (UniFi gateways, PoE switches, access points, NVRs) for a newly built school, including VLAN segmentation and DHCP/DNS services.</li>
+          <li>Installed and commissioned access-control and camera hardware; documented configurations for ongoing maintenance.</li>
+        </ul>
+      </div>
+
+      <div class="experience-block">
+        <p class="role-row"><span>RF Transmission Systems Specialist (3D1X3), United States Air Force</span><span class="date">Aug 2017 - Nov 2020</span></p>
+        <p class="location">JB Andrews, MD</p>
+        <ul class="bullet-list">
+          <li>Operated and maintained HF/VHF/UHF transmission systems supporting executive airlift missions, ensuring continuous secure communications.</li>
+          <li>Led a six-member operations team in high-security, time-critical environments.</li>
+        </ul>
+      </div>
+    </section>
+
     <section aria-labelledby="education">
-      <h2 id="education" class="section-header">Education</h2>
+      <h2 id="education" class="section-header">Education &amp; Certifications</h2>
       <div class="education-block">
         <p class="role-row"><span>University of Central Arkansas, Conway, AR</span><span class="date">Aug 2023 - May 2026</span></p>
         <p class="education-details"><strong>B.S. in Computer Science</strong> | Dean's List: Fall 2024, Fall 2025 | Focus: Software Engineering, Systems &amp; Networking | Relevant Coursework: Data Structures, Algorithms, Operating Systems, Machine Learning, Computer Networks, Assembly Language</p>
+        <p class="education-details"><strong>Certification:</strong> CompTIA Security+</p>
       </div>
     </section>
   </main>
